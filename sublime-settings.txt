@@ -1,31 +1,39 @@
 {
-	"always_show_minimap_viewport": true,
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/Monokai Soda.tmTheme",
+	"scroll_past_end": true,
+	"overlay_scroll_bars": "enabled",
+    "highlight_modified_tabs": true,
+    "remember_full_screen": true,
+
+	"show_full_path": true,
+	"show_encoding": true,
+	"always_show_minimap_viewport": true,
+	"rulers": [ 80, 100 ],
+	
 	"font_options":
 	[
 		"gray_antialias"
 	],
-	"font_size": 13,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
+	"font_size": 14,
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+
+    "tab_size": 4,
+    "tab_completion": false,
+    "indent_to_bracket": true,
 	"indent_guide_options":
 	[
 		"draw_normal",
 		"draw_active"
 	],
-	"line_padding_bottom": 3,
-	"line_padding_top": 3,
-	"overlay_scroll_bars": "enabled",
-	"rulers":
+
+	"auto_complete_selector": "meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc, text.plain",
+
+	"ignored_packages":
 	[
-		80,
-		100
+		"Vintage"
 	],
-	"scroll_past_end": true,
-	"show_full_path": true,
-	"soda_folder_icons": false,
-	"theme": "Soda Dark.sublime-theme"
 }
+
