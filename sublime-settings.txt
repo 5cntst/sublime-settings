@@ -32,7 +32,7 @@
 	"default_line_ending": "unix",
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
-
+	"ensure_newline_at_eof_on_save": true,
 
 	"auto_complete_selector": "meta.tag - punctuation.definition.tag.begin, source - comment - string.quoted.double.block - string.quoted.single.block - string.unquoted.heredoc, text.plain",
 
